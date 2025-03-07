@@ -45,7 +45,7 @@ https://templatemo.com/tm-580-woox-travel
 
   <!-- ***** Header Area Start ***** -->
   <?php
-    require "header.php";
+    include "header.php";
   ?>
   <!-- ***** Header Area End ***** -->
 
@@ -272,16 +272,10 @@ https://templatemo.com/tm-580-woox-travel
     </div>
   </div>
 
-  <footer>
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-12">
-          <p>Copyright © 2036 <a href="#">WoOx Travel</a> Company. All rights reserved. 
-          <br>Design: <a href="https://templatemo.com" target="_blank" title="free CSS templates">TemplateMo</a></p>
-        </div>
-      </div>
-    </div>
-  </footer>
+  <!-- footer stranky -->
+  <?php
+    include "footer.php"
+  ?>
 
 
   <!-- Scripts -->

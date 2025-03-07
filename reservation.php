@@ -45,7 +45,7 @@ https://templatemo.com/tm-580-woox-travel
 
   <!-- ***** Header Area Start ***** -->
   <?php
-    require "header.php";
+    include "header.php";
   ?>
   <!-- ***** Header Area End ***** -->
 
@@ -160,7 +160,7 @@ https://templatemo.com/tm-580-woox-travel
 
   <!-- footer stranky -->
   <?php
-    require "footer.php"
+    include "footer.php"
   ?>
 
 
